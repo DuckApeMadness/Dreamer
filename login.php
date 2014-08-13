@@ -48,7 +48,7 @@ include_once 'languages/'.$lan_file;
 		<meta charset='UTF-8'>
 		<script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script src='js/bootstrap.js'></script>
-		<title>Fall asleep</title>
+		<title>Fall aslee</title>
 	</head>
 	<body id="loginBody">
 		<table id="loginPage">
