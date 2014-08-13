@@ -1,0 +1,180 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family: Arial, sans-serif;
+	line-height:161%;
+}
+.btnBlue{
+	background-color:#009AED;
+	border: 1px solid #2C88BA;
+	padding:5px;
+	padding-right:10px;
+	padding-left:10px;
+	margin-top:20px;
+	color:white;
+	border-radius: 3px;
+}
+.btnBlue:hover {
+	background-color:#007CBF;
+	border: 1px solid #206387;
+	cursor:pointer;
+}
+
+/* login.php */
+#loginPage {
+	border-spacing:0px;
+	width: 100%;
+	height: 100%;
+}
+#loginBody{
+	background:#FC8E19;
+}
+#aboutUsLogin{
+	height:100px;
+	text-align: center;
+}
+#floatingBoxLogin{
+	width:200px;
+	padding:20px;
+	margin:auto;
+	font-size: 12px;
+}
+.logFields {
+	margin-top: 15px;
+	width:200px;
+	border-radius:3px;
+	border:1px solid #999999;
+}
+.logFields:focus {
+	box-shadow:0px 0px 1px 1px orange;
+	outline: 0;
+}
+.greenBox{
+	background-color:#ffffff;
+    color: black;
+    border-radius: 2px;
+    border: 2px solid white;
+}
+
+.copyBox{
+	background-color:#FF8400;
+    border-top: 2px solid white;
+    cursor:default;
+}
+
+.footerCop
+{
+	display: inline-block;
+	color:white;
+	cursor: default;
+}
+
+.footerText
+{
+	display: inline-block;
+	color:white;
+	margin-left: 5px;
+	text-decoration: none;
+}
+.footerText:hover
+{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#langText
+{
+	color:black;
+	text-decoration: none;
+	font-weight:bold;
+	font-size: 14px;
+}
+#langText:hover
+{
+	color:#4A4A4A;
+	cursor: pointer;
+}
+
+body table tr td div h1
+{
+	color:black;
+	font-weight:bold;
+	border-bottom: 1px solid black;
+}
+body table tr td div form
+{
+	color:black;
+}
+body table tr td div form a
+{
+	padding-left: 30px;
+}
+
+/*Register*/
+
+.regField1 {
+	width:200px;
+	border-radius:3px;
+	border:1px solid #999999;
+	margin-top: 15px;
+}
+.regFields:focus {
+	box-shadow:1px 0px 2px 2px red;
+	outline: 0;
+}
+
+#links
+{
+	padding-left: 10px;
+	color:#FF5405;
+	text-decoration: none;
+	font-weight:bold;
+}
+#links:hover
+{
+	text-decoration: underline;
+}
+#links2
+{
+	color:#FF5405;
+	text-decoration: none;
+	padding-left: 10px;
+	font-weight:bold;
+}
+#links2:hover
+{
+	text-decoration: underline;
+}
+
+#success
+{
+	width: 240px;
+	height: 40px;
+	background-color: #BCE899;
+	border: 1px solid white;
+	border-radius: 3px;
+	color: #3c763d;
+	text-align: center;
+	line-height: 40px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	font-weight:700;
+}
+#error
+{
+	width: 240px;
+	height: 40px;
+	background-color: #CC1D1D;
+	border: 1px solid white;
+	border-radius: 3px;
+	color: #700000;
+	text-align: center;
+	line-height: 40px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	font-weight:700;
+}
